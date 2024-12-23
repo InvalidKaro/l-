@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F8C8DC;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+/* Centering content in the container */
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Position the "No" button absolutely within the body */
+#noButton {
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+    /* Smooth movement */
+}
+
+/* Position the "Yes" button absolutely within the body */
+#yesButton {
+    position: absolute;
+    margin-right: 150px;
+    transition: 0.5s;
+}
+
+/* Header text style */
+.header_text {
+    font-family: 'Nunito';
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+/* Text content style */
+.text {
+    font-family: 'Nunito';
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+/* Button container style */
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Button style */
+.btn {
+    background-color: #FFB6C1;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #FAF9F6;
+}
+
+/* Image container style */
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Form container style */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Input and textarea styles */
+input[type="text"], textarea {
+    background-color: #FFB6C1;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 400px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Submit button style */
+button[type="submit"] {
+    background-color: #FFB6C1;
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #FAF9F6;
+}
